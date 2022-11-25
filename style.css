@@ -1,0 +1,426 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+Header {
+  padding: 10px 0;
+  width: 1000px;
+  margin: 10px auto;
+  align-items: center;
+}
+
+.logo-img {
+  width: 150px;
+}
+
+.header-container {
+  width: 40%;
+}
+
+menu {
+  width: 1000px;
+  margin: 10px auto;
+  padding: 10px 0;
+}
+
+.menu-buttons {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* HOME CAROUSEL SLIDER 1 START */
+
+#carouselExampleIndicators {
+  width: 1000px;
+  margin: 40px auto;
+}
+
+.slider1 {
+  background-image: url(/images/slider2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.slider2 {
+  background-image: url(/images/slider1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.carousel-item-details {
+  padding: 80px 60px;
+  width: 600px;
+}
+
+.discount {
+  font-size: 0.7rem;
+  background-color: rgb(240, 191, 33);
+  display: inline-block;
+  border-radius: 8px;
+  padding: 0 10px;
+  font-weight: 700;
+}
+
+.carousel-item-details > h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  color: rgb(9, 10, 24);
+}
+
+.slider-sub {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgba(9, 10, 24, 0.685);
+}
+
+.categories {
+  width: 30px;
+  height: 100px;
+}
+
+/* HOME CAROUSEL SLIDER 1 END */
+
+/* FEATURED CATEGORIES CAROUSEL SLIDER START */
+
+.category {
+  width: 1000px;
+  height: 400px;
+  margin: 20px auto;
+}
+.featured-title {
+  padding: 20px 0;
+}
+
+.featured-card {
+  width: 100px;
+  height: 200px;
+}
+
+.featured-category {
+  width: 1000px;
+  margin: 20px auto 80px;
+  align-items: center;
+  text-align: center;
+}
+
+/* FEATURED CATEGORIES CAROUSEL SLIDER END */
+
+/* ADS CONTAINER  */
+
+.ads {
+  width: 1000px;
+  text-align: center;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+.card-1 {
+  background-image: url(/images/vegs.png);
+  background-size: cover;
+  width: 50%;
+  height: 220px;
+  border-radius: 6px;
+  text-align: start;
+  padding: 46px 24px;
+  margin-right: 30px;
+}
+
+.card1 {
+  background-image: url(/images/bun.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 220px;
+  border-radius: 6px;
+  text-align: start;
+  padding: 46px 24px;
+}
+
+.ads-subtitle {
+  color: rgba(9, 10, 24, 0.623);
+}
+
+/*======================= POPULAR PRODUCTS CONTAINER START ===========================*/
+
+.all-products {
+  width: 1000px;
+  box-sizing: border-box;
+  margin: 120px auto;
+}
+
+.all-products > .row {
+  width: 1000px;
+  height: 400px;
+  /* margin: 0 auto; */
+  /* padding-left: 0; */
+}
+
+.all-products > .row > .col {
+  width: 90px;
+  height: 340px;
+}
+
+.card {
+  width: 90px;
+  height: 340px;
+}
+
+.card-img-top {
+  width: 140px;
+  object-fit: cover;
+}
+
+.card-body {
+  margin: 0;
+  padding: 4px 10px;
+}
+
+.all-prod-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 4px 8px;
+}
+
+.all-prod-rating {
+  font-size: 0.84rem;
+  color: rgba(0, 0, 0, 0.815);
+}
+
+.all-prod-rating > i {
+  color: #f2b01e;
+}
+
+.all-products > .row > .col > .card > .card-body > h6 {
+  color: rgba(0, 0, 0, 0.637);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.all-products > .row > .col > .card > .card-body > .card-text {
+  color: rgba(0, 0, 0, 0.637);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+/*======================= POPULAR PRODUCTS CONTAINER END ===========================*/
+
+/* ======================INFO CONTAINER START======================= */
+
+.info {
+  width: 1000px;
+  height: 400px;
+  margin: 40px auto;
+}
+
+.info-card {
+  width: 100%;
+  height: 100%;
+}
+
+.info > .row {
+  height: 400px;
+}
+
+.info > .row > .col {
+  width: 25%;
+  height: 100%;
+}
+
+/* ======================INFO CONTAINER END======================= */
+
+/* =============DAILY BEST SELLS CONTAINER - START===================== */
+
+.best-sells {
+  width: 1000px;
+  height: 40rem;
+  margin: 40px auto;
+}
+
+.best-sells > .row {
+  height: 30rem;
+}
+
+.best-sells > .row > .col {
+  width: 250px;
+}
+
+.best-sells-card {
+  width: 100%;
+  height: 100%;
+}
+
+.best-sells-card1 {
+  width: 100%;
+  height: 100%;
+  background-image: url(/images/coffeebanner.jpg);
+  background-size: cover;
+  padding: 30px 0;
+}
+
+.best-sells-card1 > h3 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 20px 20px 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.best-sells-card1 > p {
+  color: white;
+  font-size: 1rem;
+  font-weight: 800;
+  padding: 10px 20px 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.best-sells-button {
+  margin: 0 30px;
+}
+
+.best-sells-img {
+  width: 100%;
+  object-fit: cover;
+  padding: 30px 0;
+}
+
+.card-mid > h6 {
+  color: rgba(0, 0, 0, 0.637);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.card-mid > p {
+  color: rgba(0, 0, 0, 0.637);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.card-mid {
+  margin: 40px 0;
+  padding-left: 10px;
+}
+
+.best-sells-rating {
+  font-size: 0.84rem;
+  color: rgba(0, 0, 0, 0.815);
+  font-weight: 600;
+}
+
+.star-rating > i {
+  font-size: 0.84rem;
+  color: #f2b01e;
+}
+
+.best-sells-footer {
+  text-align: center;
+  padding: 20px 0;
+}
+/* =============DAILY BEST SELLS CONTAINER - END ===================== */
+
+/* ========= FOOTER CONTAINER - INFO - START ===============*/
+
+.info {
+  width: 1000px;
+  height: 350px;
+  margin: 80px auto;
+  box-sizing: border-box;
+}
+
+.info > .row {
+  height: 300px;
+}
+
+.info > .row > .col {
+  width: 250px;
+  height: 340px;
+}
+
+.info-card {
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+}
+
+.info-card > img {
+  width: 80px;
+  padding: 20px 20px;
+}
+
+.info-card > .card-body > h5 {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.info-card > .card-body > p {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(9, 10, 24, 0.685);
+}
+
+/* ========= FOOTER CONTAINER - INFO - END ===============*/
+
+/* ========= FOOTER CONTAINER - LINKS - START ===============*/
+
+.footer {
+  background-color: rgba(184, 178, 178, 0.26);
+}
+
+.footer-container {
+  padding: 80px 0;
+  width: 1200px;
+}
+
+.footer-container > .row > .col > p {
+  color: black;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.footer-links > li > a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.589);
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.footer-links {
+  display: block;
+}
+
+.nav-link {
+  padding: 4px 0;
+}
+
+/* ========= FOOTER CONTAINER - LINKS - END===============*/
+
+.payment-row {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.payment-col {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.payment-title {
+  color: rgba(0, 0, 0, 0.589);
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.payment-col > ul > li {
+  margin-right: 10px;
+}
+

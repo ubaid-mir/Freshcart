@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/8b57939e49.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>FreshCart</title>
+  </head>
+  <body>
+    <header class="d-flex justify-content-between">
+      <div><img class="logo-img" src="/images/logo.svg" alt="FreshCart" /></div>
+      <div class="input-group header-container">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Search for products"
+          aria-describedby="button-addon2"
+        />
+        <button
+          class="btn btn-outline-secondary"
+          type="button"
+          id="button-addon2"
+        >
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+
+      <div>
+        <button class="border-0 bg-transparent">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+        <button class="border-0 bg-transparent">
+          <i class="fa-solid fa-user"></i>
+        </button>
+        <button class="border-0 bg-transparent">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+      </div>
+    </header>
+
+    <menu class="d-flex justify-content-start border-bottom">
+      <div class="dropdown me-3">
+        <button
+          class="btn btn-success dropdown-toggle fw-semibold menu-buttons"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          style="--bs-btn-bg: #0aad0a"
+        >
+          All Departments
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Dairy, Bread & Eggs</a></li>
+          <li><a class="dropdown-item" href="#">Snacks & Munchies</a></li>
+          <li><a class="dropdown-item" href="#">Fruits & Vegetables</a></li>
+        </ul>
+      </div>
+      <div class="dropdown me-2">
+        <button
+          class="btn btn-light bg-transparent dropdown-toggle menu-buttons"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Home
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Dairy, Bread & Eggs</a></li>
+          <li><a class="dropdown-item" href="#">Snacks & Munchies</a></li>
+          <li><a class="dropdown-item" href="#">Fruits & Vegetables</a></li>
+        </ul>
+      </div>
+      <div class="dropdown me-2">
+        <button
+          class="btn btn-light bg-transparent dropdown-toggle menu-buttons"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Shop
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Dairy, Bread & Eggs</a></li>
+          <li><a class="dropdown-item" href="#">Snacks & Munchies</a></li>
+          <li><a class="dropdown-item" href="#">Fruits & Vegetables</a></li>
+        </ul>
+      </div>
+      <div class="dropdown me-2">
+        <button
+          class="btn btn-light bg-transparent dropdown-toggle menu-buttons"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Stores
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Dairy, Bread & Eggs</a></li>
+          <li><a class="dropdown-item" href="#">Snacks & Munchies</a></li>
+          <li><a class="dropdown-item" href="#">Fruits & Vegetables</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown me-2">
+        <button
+          class="btn btn-light bg-transparent dropdown-toggle menu-buttons"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Mega menu
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Dairy, Bread & Eggs</a></li>
+          <li><a class="dropdown-item" href="#">Snacks & Munchies</a></li>
+          <li><a class="dropdown-item" href="#">Fruits & Vegetables</a></li>
+        </ul>
+      </div>
+      <div class="dropdown me-2">
+        <button
+          class="btn btn-light bg-transparent dropdown-toggle menu-buttons"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Pages
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Dairy, Bread & Eggs</a></li>
+          <li><a class="dropdown-item" href="#">Snacks & Munchies</a></li>
+          <li><a class="dropdown-item" href="#">Fruits & Vegetables</a></li>
+        </ul>
+      </div>
+      <div class="dropdown me-2">
+        <button
+          class="btn btn-light bg-transparent dropdown-toggle menu-buttons"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Account
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Dairy, Bread & Eggs</a></li>
+          <li><a class="dropdown-item" href="#">Snacks & Munchies</a></li>
+          <li><a class="dropdown-item" href="#">Fruits & Vegetables</a></li>
+        </ul>
+      </div>
+      <div class="dropdown me-2">
+        <button
+          class="btn btn-light bg-transparent dropdown-toggle menu-buttons"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Docs
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Dairy, Bread & Eggs</a></li>
+          <li><a class="dropdown-item" href="#">Snacks & Munchies</a></li>
+          <li><a class="dropdown-item" href="#">Fruits & Vegetables</a></li>
+        </ul>
+      </div>
+    </menu>
+
+    <!-- HOME PAGE CAROUSEL FOR ADS START -->
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="true"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active slider1">
+          <div class="carousel-item-details">
+            <p class="discount">Opening Sale Discount 50%</p>
+            <h1>SuperMarket for Fresh Grocery</h1>
+            <p class="slider-sub">
+              Introduced the new model for online grocery shopping and
+              convenient home delivery.
+            </p>
+            <button class="btn btn-dark">Shop Now</button>
+          </div>
+        </div>
+        <div class="carousel-item slider2">
+          <div class="carousel-item-details">
+            <p class="discount">Free shipping on orders above 100$</p>
+            <h1>Free Shipping on orders over $100</h1>
+            <p class="slider-sub">
+              Free Shipping to First-Time Customers only, After promotions and
+              discounts are applied.
+            </p>
+            <button class="btn btn-dark">Shop Now</button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- HOME PAGE CAROUSEL FOR ADS END -->
+
+    <!-- FEATURED CATEGORIES CAROUSEL SLIDER START -->
+
+    <div class="category">
+      <div class="featured-title">
+        <p class="fw-bold fs-2">Featured Categories</p>
+      </div>
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide featured-category"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div
+            class="carousel-item active category-slider"
+            data-bs-interval="5000"
+          >
+            <div class="container">
+              <div class="row slider2-row">
+                <div class="col slider2-col">
+                  <div
+                    class="featured-card card me-1"
+                    style="height: 12rem; width: 12rem"
+                  >
+                    <img src="/images/lays.jpg" class="card-img-top px-2" />
+                    <div class="card-body">
+                      <p class="card-text fw-bolder">Snacks</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card me-2" style="height: 12rem; width: 12rem">
+                    <img
+                      src="/images/fish.jpg"
+                      class="card-img-top px-2"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text fw-bolder">Chicken & Fish</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card me-2" style="height: 12rem; width: 12rem">
+                    <img
+                      src="/images/oil.jpg"
+                      class="card-img-top px-2"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text fw-bolder">Pet Care</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card" style="height: 12rem; width: 12rem">
+                    <img
+                      src="/images/tea.jpg"
+                      class="card-img-top px-2"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text fw-bolder">Tea & Coffee</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item category-slider" data-bs-interval="2000">
+            <div class="container">
+              <div class="row slider2-row">
+                <div class="col slider2-col">
+                  <div class="card me-2" style="height: 12rem; width: 12rem">
+                    <img
+                      src="/images/cleaning.jpg"
+                      class="card-img-top px-2"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text fw-bolder">Cleaning Essentials</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card me-2" style="height: 12rem; width: 12rem">
+                    <img
+                      src="/images/ata.jpg"
+                      class="card-img-top px-2"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text fw-bolder">Atta & Rice</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card me-2" style="height: 12rem; width: 12rem">
+                    <img
+                      src="/images/baby.jpg"
+                      class="card-img-top px-2"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text fw-bolder">Baby Care</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card" style="height: 12rem; width: 12rem">
+                    <img
+                      src="/images/bread.jpg"
+                      class="card-img-top px-2"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text fw-bolder">Instant Food</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- FEATURED CATEGORIES CAROUSEL SLIDER END -->
+
+    <!-- ADS CONTAINER START -->
+
+    <div class="ads">
+      <div class="card-1">
+        <p class="fs-3 fw-bold mb-0">Fruits & Vegetables</p>
+        <p class="ads-subtitle fs-6 fw-bold">Get Upto 30% Off</p>
+        <button class="btn btn-dark">Shop Now</button>
+      </div>
+      <div class="card1">
+        <p class="fs-3 fw-bold mb-0">Freshly Baked Buns</p>
+        <p class="ads-subtitle fs-6 fw-bold">Get Upto 25% Off</p>
+        <button class="btn btn-dark">Shop Now</button>
+      </div>
+    </div>
+
+    <!-- ADS CONTAINER END -->
+
+    <!-- =================ALL PRODUCTS START======================== -->
+
+    <div class="all-products container">
+      <div class="row mb-10" style="height: 80px">
+        <div class="col">
+          <p class="fw-bold fs-2">Popular Products</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card border-success" style="width: 12rem">
+            <div class="card-body">
+              <img src="/images/bhuja.jpg" class="card-img-top" alt="bhuja" />
+              <h6 class="card-title">Snack & Munchies</h6>
+              <p class="card-text">Haldiram's Sev Bhujia</p>
+              <p class="all-prod-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i> 4.5(149)
+              </p>
+            </div>
+            <div class="all-prod-footer">
+              <p>$18 $24</p>
+              <button class="btn btn-success" style="--bs-btn-bg: #0aad0a">
+                + Add
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-success" style="width: 12rem">
+            <div class="card-body">
+              <img src="/images/biscuit.jpg" class="card-img-top" alt="bhuja" />
+              <h6 class="card-title">Bakery & Biscuits</h6>
+              <p class="card-text">NutriChoice Digestive</p>
+              <p class="all-prod-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i> 4.5(149)
+              </p>
+            </div>
+            <div class="all-prod-footer">
+              <p>$24</p>
+              <button class="btn btn-success" style="--bs-btn-bg: #0aad0a">
+                + Add
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-success" style="width: 12rem">
+            <div class="card-body">
+              <img src="/images/5star.jpg" class="card-img-top" alt="bhuja" />
+              <h6 class="card-title">Bakery & Biscuits</h6>
+              <p class="card-text">Cadbury 5 Star Chocolate</p>
+              <p class="all-prod-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i> 4.5(149)
+              </p>
+            </div>
+            <div class="all-prod-footer">
+              <p>$32 $35</p>
+              <button class="btn btn-success" style="--bs-btn-bg: #0aad0a">
+                + Add
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-success" style="width: 12rem">
+            <div class="card-body">
+              <img
+                src="/images/greenlays.jpg"
+                class="card-img-top"
+                alt="bhuja"
+              />
+              <h6 class="card-title">Snack & Munchies</h6>
+              <p class="card-text">Onion Flavour Potato</p>
+              <p class="all-prod-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i> 4.5(149)
+              </p>
+            </div>
+            <div class="all-prod-footer">
+              <p>$3 $5</p>
+              <button class="btn btn-success" style="--bs-btn-bg: #0aad0a">
+                + Add
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-success" style="width: 12rem">
+            <div class="card-body">
+              <img src="/images/popcorn.jpg" class="card-img-top" alt="bhuja" />
+              <h6 class="card-title">Instant Food</h6>
+              <p class="card-text">Salted Instant Popcorn</p>
+              <p class="all-prod-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i> 4.5(149)
+              </p>
+            </div>
+            <div class="all-prod-footer">
+              <p>$13 $18</p>
+              <button class="btn btn-success" style="--bs-btn-bg: #0aad0a">
+                + Add
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card border-success" style="width: 12rem">
+            <div class="card-body">
+              <img src="/images/yogurt.jpg" class="card-img-top" alt="bhuja" />
+              <h6 class="card-title">Dairy, Bread & Eggs</h6>
+              <p class="card-text">Blueberry Greek Yogurt</p>
+              <p class="all-prod-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i> 4.5(149)
+              </p>
+            </div>
+            <div class="all-prod-footer">
+              <p>$18 $24</p>
+              <button class="btn btn-success" style="--bs-btn-bg: #0aad0a">
+                + Add
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-success" style="width: 12rem">
+            <div class="card-body">
+              <img
+                src="/images/cheeseslices.jpg"
+                class="card-img-top"
+                alt="bhuja"
+              />
+              <h6 class="card-title">Dairy, Bread & Eggs</h6>
+              <p class="card-text">Britannia Cheese Slices</p>
+              <p class="all-prod-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i> 4.5(149)
+              </p>
+            </div>
+            <div class="all-prod-footer">
+              <p>$24</p>
+              <button class="btn btn-success" style="--bs-btn-bg: #0aad0a">
+                + Add
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-success" style="width: 12rem">
+            <div class="card-body">
+              <img
+                src="/images/cornflakes.jpg"
+                class="card-img-top"
+                alt="bhuja"
+              />
+              <h6 class="card-title">Instant Food</h6>
+              <p class="card-text">Kellogg's Original Cereals</p>
+              <p class="all-prod-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i> 4.5(149)
+              </p>
+            </div>
+            <div class="all-prod-footer">
+              <p>$32 $35</p>
+              <button class="btn btn-success" style="--bs-btn-bg: #0aad0a">
+                + Add
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-success" style="width: 12rem">
+            <div class="card-body">
+              <img src="/images/pancake.jpg" class="card-img-top" alt="bhuja" />
+              <h6 class="card-title">Snack & Munchies</h6>
+              <p class="card-text">Slurrp Millet Chocolate</p>
+              <p class="all-prod-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i> 4.5(149)
+              </p>
+            </div>
+            <div class="all-prod-footer">
+              <p>$3 $5</p>
+              <button class="btn btn-success" style="--bs-btn-bg: #0aad0a">
+                + Add
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-success" style="width: 12rem">
+            <div class="card-body">
+              <img src="/images/butter.jpg" class="card-img-top" alt="bhuja" />
+              <h6 class="card-title">Dairy, Bread & Eggs</h6>
+              <p class="card-text">Amul Butter - 500 g</p>
+              <p class="all-prod-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i> 4.5(149)
+              </p>
+            </div>
+            <div class="all-prod-footer">
+              <p>$13 $18</p>
+              <button class="btn btn-success" style="--bs-btn-bg: #0aad0a">
+                + Add
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =================ALL PRODUCTS END======================== -->
+
+    <!-- DAILY BEST SELLS CONTAINER - START -->
+
+    <div class="best-sells container">
+      <div class="row">
+        <div class="col">
+          <div class="card best-sells-card1 border-success">
+            <h3>100% Organic Coffee Beans</h3>
+            <p class="">Get the best deal before close</p>
+            <div class="best-sells-footer">
+              <button
+                class="btn btn-success best-sells-button"
+                style="--bs-btn-bg: #0aad0a"
+                type="button"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-success best-sells-card">
+            <div class="card-body">
+              <img
+                src="/images/starbuck.jpg"
+                class="card-img-top best-sells-img"
+              />
+              <div class="card-mid">
+                <h6 class="card-title">Tea, Coffee & Drinks</h6>
+                <p class="card-text">Roast Ground Coffee</p>
+                <div class="best-sells-rating">
+                  <span>13$ $18</span>
+                  <span class="star-rating">
+                    <i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-regular fa-star"></i> 4.5
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="best-sells-footer">
+              <button class="btn btn-success" style="--bs-btn-bg: #0aad0a">
+                + Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-success best-sells-card">
+            <div class="card-body">
+              <img
+                src="/images/tomatocrush.jpg"
+                class="card-img-top best-sells-img"
+              />
+              <div class="card-mid">
+                <h6 class="card-title">Fruits & Vegetables</h6>
+                <p class="card-text">Crushed Tomatoes</p>
+                <div class="best-sells-rating">
+                  <span>13$ $18</span>
+                  <span class="star-rating">
+                    <i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i> 5.0
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="best-sells-footer">
+              <button class="btn btn-success" style="--bs-btn-bg: #0aad0a">
+                + Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-success best-sells-card">
+            <div class="card-body">
+              <img
+                src="/images/pineapple.jpg"
+                class="card-img-top best-sells-img"
+              />
+              <div class="card-mid">
+                <h6 class="card-title">Fruits & Vegetables</h6>
+                <p class="card-text">Golden Pineapple</p>
+                <div class="best-sells-rating">
+                  <span>13$ $18</span>
+                  <span class="star-rating">
+                    <i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-regular fa-star"></i
+                    ><i class="fa-regular fa-star"></i> 3.5
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="best-sells-footer">
+              <button class="btn btn-success" style="--bs-btn-bg: #0aad0a">
+                + Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DAILY BEST SELLS CONTAINER - END -->
+
+    <!-- FOOTER CONTAINER - INFO - START -->
+
+    <div class="info container">
+      <div class="row">
+        <div class="col">
+          <div class="card info-card">
+            <img src="/images/clock.svg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">10 minute grocery now</h5>
+              <p class="card-text">
+                Get your order delivered to your doorstep at the earliest from
+                FreshCart pickup stores near you.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card info-card">
+            <img src="/images/gift.svg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Best Prices & Offers</h5>
+              <p class="card-text">
+                Cheaper prices than your local supermarket, great cashback
+                offers to top it off. Get best pricess & offers.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card info-card">
+            <img src="/images/package.svg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Wide Assortment</h5>
+              <p class="card-text">
+                Choose from 5000+ products across food, personal care,
+                household, bakery, veg and non-veg & other categories.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card info-card">
+            <img src="/images/refresh.svg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Easy Returns</h5>
+              <p class="card-text">
+                Not satisfied with a product? Return it at the doorstep & get a
+                refund within hours. No questions asked policy.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER CONTAINER - INFO - END -->
+
+    <!-- FOOTER CONTAINER - LINKS - START -->
+
+    <div class="footer">
+      <div class="container footer-container">
+        <div class="row">
+          <div class="col">
+            <p>Categories</p>
+            <ul class="nav footer-links">
+              <li>
+                <a class="nav-link" href="">Vegetabeles & Fruits</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Breakfast & Instant food</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Bakery & Biscuits</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Atta, rice & dal</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Sauces & Spreads</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Baby Care</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Cleaning Essentials</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Personal Care</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Cold drinks & juices</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Tea, Coffee & Drinks</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <p>Get to know us</p>
+            <ul class="nav footer-links">
+              <li>
+                <a class="nav-link" href="">Company</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">About</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Blog</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Help Center</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Our Value</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <p>Become a Shopper</p>
+            <ul class="nav footer-links">
+              <li>
+                <a class="nav-link" href="">Shopper Opportunities</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Become a Shopper</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Earnings</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Ideas & Guides</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">New Retailers</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <p>Freshcart Programs</p>
+            <ul class="nav footer-links">
+              <li>
+                <a class="nav-link" href="">Freshcart programs</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Gift Cards</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Promos & Coupons</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Freshcart Ads</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Careers</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <p>For Consumers</p>
+            <ul class="nav footer-links">
+              <li>
+                <a class="nav-link" href="">Payments</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Shipping</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Product Returns</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">FAQ</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Shop Checkout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row payment-row">
+          <div class="col payment-col">
+            <ul class="nav">
+              <li>
+                <p class="payment-title">Payment Partners</p>
+              </li>
+              <li>
+                <img src="images/amazonpay.svg" alt="amazonpay" />
+              </li>
+              <li>
+                <img src="images/americanexpress.svg" alt="American Express" />
+              </li>
+              <li>
+                <img src="images/mastercard.svg" alt="Master Card" />
+              </li>
+              <li>
+                <img src="images/paypal.svg" alt="Paypal" />
+              </li>
+              <li>
+                <img src="images/visa.svg" alt="VISA" />
+              </li>
+            </ul>
+
+            <ul class="nav">
+              <li>
+                <p class="payment-title">Get deliveries with FreshCart</p>
+              </li>
+              <li>
+                <a href="www.apple.com"
+                  ><img src="/images/applestore.svg" style="width: 140px"
+                /></a>
+              </li>
+              <li>
+                <a href="www.google.com"
+                  ><img src="/images/googleplay.svg" style="width: 140px"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <p payment-title>
+              Copyright 2022 FreshCart eCommerce HTML Template. All rights
+              reserved.
+            </p>
+            <p>Powered by CodeUbaid.</p>
+          </div>
+          <div class="col">
+            <p>Follow us on</p>
+            <button class="btn btn-dark">
+              <i class="fa-brands fa-facebook"></i>
+            </button>
+            <button class="btn btn-dark">
+              <i class="fa-brands fa-twitter"></i>
+            </button>
+            <button class="btn btn-dark">
+              <i class="fa-brands fa-instagram"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER CONTAINER - LINKS - END -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
